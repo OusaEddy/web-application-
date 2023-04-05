@@ -1,0 +1,98 @@
+body{
+    background-image: url(images/Jordan\ 4.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style the header */
+header {
+    background-color:none;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation menu links */
+  nav a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ 
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+  nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+  nav a:hover::after{
+    width: 100%;
+  }
+  /* Style the main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #42fcf2;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    color: #22c6db;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1b9fd3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fff;
+    color: #28a8cf;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color:none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

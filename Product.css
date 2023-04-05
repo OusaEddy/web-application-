@@ -1,0 +1,120 @@
+/* Set default styles for the entire page */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: url(images/Galore.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Style the header section */
+header {
+	background-color:none;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 36px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+
+nav a {
+	color: #fff;
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/* Style the main section */
+main {
+	padding: 20px;
+}
+
+.product {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 50px;
+}
+
+.product h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.product-images {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+	margin-right: 50px;
+}
+
+.product-images img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-right: 10px;
+    border-radius: 10px;
+}
+
+.product-details {
+	flex: 1;
+}
+
+.product-details p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.product-details button {
+	background-color: #1ab9e9;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.product-details button:hover {
+	background-color: #4649e9;
+}
+
+.product-description {
+	flex: 1;
+}
+
+.product-description h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.product-description p {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+/* Style the footer section */
+footer {
+	background-color:none;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}

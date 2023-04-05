@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/Air\ Jordan\ 3.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    /* Style the header */
+header {
+    background-color: none;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aqua;
+  }
+  
+  /* Style the navigation menu links */
+  nav a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ 
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+  nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+  nav a:hover::after{
+    width: 100%;
+  }
+  /* Style the main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #0aa9da;
+    margin-top: 40px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #11a0e2;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color:none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

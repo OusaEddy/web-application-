@@ -1,0 +1,73 @@
+body{
+    background-image: url(images/Services.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+    /* Style the header */
+header {
+    background-color:none;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the navigation menu links */
+  nav a {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+ 
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+  nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+  nav a:hover::after{
+    width: 100%;
+  }
+  
+  /* Style the main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    color: #33c7d1;
+    margin-top: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #35bfe2;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color:none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
